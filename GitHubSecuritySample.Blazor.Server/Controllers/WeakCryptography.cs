@@ -11,7 +11,6 @@ namespace GitHubSecuritySample.Blazor.Server.Controllers
             using (var md5 = MD5.Create())
             {
 
-
                 return md5.ComputeHash(Encoding.UTF8.GetBytes(password));
             }
         }
