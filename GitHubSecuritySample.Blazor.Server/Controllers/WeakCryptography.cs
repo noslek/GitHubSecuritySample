@@ -10,6 +10,8 @@ namespace GitHubSecuritySample.Blazor.Server.Controllers
             // BAD: MD5 is cryptographically weak
             using (var md5 = MD5.Create())
             {
+
+
                 return md5.ComputeHash(Encoding.UTF8.GetBytes(password));
             }
         }
