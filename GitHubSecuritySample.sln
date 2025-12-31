@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubSecuritySample.Module", "GitHubSecuritySample.Module\GitHubSecuritySample.Module.csproj", "{F7EE1CCD-02AB-4758-552D-26A9B7FCCED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubSecuritySample.MiddleTier", "GitHubSecuritySample.MiddleTier\GitHubSecuritySample.MiddleTier.csproj", "{BC84AB1A-C678-6C81-0F6D-268EBBC25046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubSecuritySample.Win", "GitHubSecuritySample.Win\GitHubSecuritySample.Win.csproj", "{AEF9B96F-FB74-B7BA-1DA9-7E5EA277F4B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubSecuritySample.Blazor.Server", "GitHubSecuritySample.Blazor.Server\GitHubSecuritySample.Blazor.Server.csproj", "{F4A013AB-F584-010D-FCF7-45BB5879FE28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7EE1CCD-02AB-4758-552D-26A9B7FCCED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EE1CCD-02AB-4758-552D-26A9B7FCCED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EE1CCD-02AB-4758-552D-26A9B7FCCED1}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{F7EE1CCD-02AB-4758-552D-26A9B7FCCED1}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{F7EE1CCD-02AB-4758-552D-26A9B7FCCED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EE1CCD-02AB-4758-552D-26A9B7FCCED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC84AB1A-C678-6C81-0F6D-268EBBC25046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC84AB1A-C678-6C81-0F6D-268EBBC25046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC84AB1A-C678-6C81-0F6D-268EBBC25046}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{BC84AB1A-C678-6C81-0F6D-268EBBC25046}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{BC84AB1A-C678-6C81-0F6D-268EBBC25046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC84AB1A-C678-6C81-0F6D-268EBBC25046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF9B96F-FB74-B7BA-1DA9-7E5EA277F4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF9B96F-FB74-B7BA-1DA9-7E5EA277F4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF9B96F-FB74-B7BA-1DA9-7E5EA277F4B8}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{AEF9B96F-FB74-B7BA-1DA9-7E5EA277F4B8}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{AEF9B96F-FB74-B7BA-1DA9-7E5EA277F4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF9B96F-FB74-B7BA-1DA9-7E5EA277F4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A013AB-F584-010D-FCF7-45BB5879FE28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A013AB-F584-010D-FCF7-45BB5879FE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A013AB-F584-010D-FCF7-45BB5879FE28}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{F4A013AB-F584-010D-FCF7-45BB5879FE28}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{F4A013AB-F584-010D-FCF7-45BB5879FE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A013AB-F584-010D-FCF7-45BB5879FE28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B8F912A-D39C-4CDE-92B9-23A6738E1D4E}
+	EndGlobalSection
+EndGlobal
